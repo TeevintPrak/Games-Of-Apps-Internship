@@ -125,7 +125,7 @@ body {
 
 /* Overlay Styles */
 .overlay{
-    background: rgba(0,0,0,0.5);
+    background: rgba(23, 90, 153, 0.5);
     position: fixed;
     top: 0;
     left: 0;
@@ -159,6 +159,7 @@ body {
     background: transparent;
     font-weight: 400;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .popup-content {
