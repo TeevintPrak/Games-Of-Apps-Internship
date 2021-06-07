@@ -78,7 +78,7 @@ body {
 }
 #rectangle{
     background-color: white;
-    width: 25vh;
+    width: 27vh;
     height: 20vh;
     padding: 1vh;
 }
@@ -248,5 +248,16 @@ body {
         height: 25vh;
         padding: 2vh;
         clip-path: polygon(50% 10%, 3% 95%, 97% 95%);
+    }
+
+    .pop-up button{
+        position: absolute;  
+        top: 2%;
+        left: 85%;
+        border: transparent;
+        background: transparent;
+        font-weight: 400;
+        font-size: 20px;
+        cursor: pointer;
     }
 }
